@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta charset="utf-8">
 
 		<title>Evan's golden rules for easier throwing and Turning</title>
 
+		<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=device-width, height=device-height">
+
+		<meta name="DC.Date.Created" content="2012-12-15" />
+		<meta name="DC.Date.Modified" content="2016-10-28" />
+		<meta name="DC.Date.Issued" content="2012-12-15" />
 
 <!--
  ! ==================================================================
  ! START: browser reset
  ! -->
-
 		<style type="text/css">
 /* =========================================================
 This resets all browser defaults CSS values
 Adapted (minimally) from Eric Meyer's "Reset Reloaded" CSS
 http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
 ========================================================== */
+
 html, body, div, span, applet, object, iframe, h1, h2, h3,
 h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
 big, cite, code, del, dfn, em, font, img, ins, kbd, q, s,
@@ -33,8 +39,8 @@ tbody, tfoot, thead, tr, th, td {
 	font-family: inherit;
 	vertical-align: baseline;
 }
-
 /* remember to define focus styles! */
+
 :focus {
 	outline: 0;
 }
@@ -68,156 +74,160 @@ blockquote, q {
 	quotes: "" "";
 }
 		</style>
-
 <!--
  ! END: browser reset
  ! ==================================================================
  ! START: actual styles
  ! -->
-
 		<style type="text/css">
-
-body
-{
+body {
 	font-family: arial, helvetica, sans-serif;
 	line-height: 1.25em;
 	max-width: 40em;
 	margin: 1em auto;
 }
+
 section.primary {
 	counter-reset: rule;
 }
-h1,h2
-{
+
+h1, h2 {
 	font-family: verdana, arial, helvetica, sans-serif;
-	font-weight:bold;
+	font-weight: bold;
 }
-h1
-{
-	font-size:175%;
+
+h1 {
+	font-size: 175%;
 }
-h2
-{
+
+h2 {
 	font-size: 125%;
 }
-ol li
-{
+
+ol li {
 	list-style-type: none;
 	margin-left: 6.6em;
 	margin-bottom: 1.5em;
 }
-em
-{
+
+em {
 	font-style: italic;
 }
-strong
-{
+
+strong {
 	font-weight: bold;
 	color: #555;
 }
-article ol li
-{
+
+article ol li {
 	margin-left: 2em;
 	margin-bottom: 0.5em;
 }
-ul li
-{
+
+ul li {
 	list-style-type: disc;
 	margin-left: 1em;
 	padding-left: 1em;
 	margin-bottom: 0.25em;
 	font-weight: normal;
 }
-ol li,
-ul li
-{
+
+ol li, ul li {
 	position: relative;
 }
-ol ol li
-{
+
+ol ol li {
 	list-style-type: lower-alpha;
 }
+
 div.details,
 div.how,
 div.note,
-div.why
-{
+div.why {
 	position: relative;
 	padding-left: 4em;
 	margin-top: 0.5em;
 	font-weight: normal;
 }
+
 div.details:before,
 div.how:before,
 div.note:before,
-div.why:before
-{
+div.why:before {
 	font-weight: bold;
 	position: absolute;
 	top: 0%;
 	left: 0%;
 }
-div.details:before { content: 'Details:'; }
-div.how:before { content: 'How?'; }
-div.why:before { content: 'Why?'; }
-div.note:before { content: 'Note:'; }
 
-section h1
-{
+div.details:before {
+	content: 'Details:';
+}
+
+div.how:before {
+	content: 'How?';
+}
+
+div.why:before {
+	content: 'Why?';
+}
+
+div.note:before {
+	content: 'Note:';
+}
+
+section h1 {
 	font-size: 140%;
 }
 
-section
-{
+section {
 	border-top: 0.1em solid #333;
 	margin-top: 2em;
 	padding-top: 0.5em;
 }
-section header+ol
-{
+
+section header+ol {
 	margin-top: 1em;
 }
 
-article h1
-{
+article h1 {
 	font-family: verdana, arial, helvetica, sans-serif;
 	font-size: 120%;
 }
 
-article h2
-{
+article h2 {
 	font-size: 110%;
 }
-article h1:before
-{
+
+article h1:before {
 	font-weight: normal;
 	display: block;
 	margin-left: -5.45em;
 	margin-bottom: -1em;
 }
-article header h1:before
-{
+
+article header h1:before {
 	content: 'Rule ' counter(rule);
 	counter-increment: rule;
 }
-.reminder article h1:before
-{
+
+.reminder article h1:before {
 	content: 'Reminder ';
 }
-.hot article h1:before
-{
+
+.hot article h1:before {
 	content: 'Hot tip: ';
 }
-.note article h1:before
-{
+
+.note article h1:before {
 	content: 'Note: ';
 }
-.page-br
-{
+
+.page-br {
 	page-break-before: always;
 }
-.question
-{
+
+.question {
 	/* border: 0.1em solid #999; */
 	padding: 1em;
 	margin: 2em 5em 1em;
@@ -227,40 +237,41 @@ article header h1:before
 	-ms-border-radius: 1em;
 	-o-border-radius: 1em;
 	border-radius: 1em;
-	-webkit-box-shadow: 0.3em 0.3em 0.5em rgba( 0 , 0 , 0 , 0.6 );
-	 -khtml-box-shadow: 0.3em 0.3em 0.5em rgba( 0 , 0 , 0 , 0.6 );
-	-moz-box-shadow: 0.3em 0.3em 0.5em rgba( 0 , 0 , 0 , 0.6 );
-	-ms-box-shadow: 0.3em 0.3em 0.5em rgba( 0 , 0 , 0 , 0.6 );
-	-o-box-shadow: 0.3em 0.3em 0.5em rgba( 0 , 0 , 0 , 0.6 );
-	box-shadow: 0.3em 0.3em 0.5em rgba( 0 , 0 , 0 , 0.6 );
+	-webkit-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
+	-khtml-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
+	-moz-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
+	-ms-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
+	-o-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
+	box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
 	border-top: 0.1em solid #999;
 	border-left: 0.1em solid #999;
 }
-.question p
-{
+
+.question p {
 	margin: 0.5em 0%;
 }
-.question ol li
-{
+
+.question ol li {
 	list-style-type: decimal;
 	margin: 0% 0% 0.5em 1.5em;
 	padding: 0% 0% 0% 0.5em;
 }
-.by
-{
+
+.by {
 	margin: 1em 0%;
 }
-.by span
-{
+
+.by span {
 	font-style: italic;
 	font-weight: bold;
 	color: #666;
 }
-			.source {
-				font-weight: normal !important;
-				font-size: 90%;
-				padding-left: 2em;
-			}
+
+.source {
+	font-weight: normal !important;
+	font-size: 90%;
+	padding-left: 2em;
+}
 
 @media screen {
 	.primary {
@@ -273,17 +284,18 @@ article header h1:before
 	}
 }
 
-@media print
-{
-	a { text-decoration: none !important; }
-	p.link { margin-top: -1em; }
-	.link a
-	{
+@media print {
+	a {
+		text-decoration: none !important;
+	}
+	p.link {
+		margin-top: -1em;
+	}
+	.link a {
 		color: #000;
 		font-weight: bold;
 	}
-	.link a:after
-	{
+	.link a:after {
 		content: '[' attr(href) ']';
 		padding: 0% 0.3em;
 		color: #aaa;
@@ -291,23 +303,20 @@ article header h1:before
 		font-style: italic;
 		font-weight: normal;
 	}
-	.link a:before
-	{
+	.link a:before {
 		content: 'For ';
 		padding: 0%;
 		color: #aaa;
 		font-weight: normal;
 	}
-	a.hidden:after
-	{
+	a.hidden:after {
 		content: '[' attr(title) ']';
 		padding: 0% 0.3em;
 		color: #aaa;
 		font-size: 75%;
 		font-style: italic;
 	}
-	.question
-	{
+	.question {
 		border-right: 0.1em solid #999;
 		border-bottom: 0.1em solid #999;
 		-webkit-box-shadow: none;
@@ -316,31 +325,27 @@ article header h1:before
 		-ms-box-shadow: none;
 		-o-box-shadow: none;
 		box-shadow: none;
-		margin:1.5em 5em 0em;
+		margin: 1.5em 5em 0em;
 	}
 	.sub {
 		margin-top: 1em;
 		margin-bottom: 2em;
 	}
 }
+
 @page {
 	margin: 1.5cm;
 }
 		</style>
-
 <!--
  ! END: actual styles
  ! ==================================================================
  ! -->
-
 	</head>
 
 	<body>
 		<h1>Golden rules for Throwing and Turning</h1>
-		<p class="by">
-			Written by: <span>Evan Wills</span>
-		</p>
-
+		<p class="by"> Written by: <span>Evan Wills</span> </p>
 		<section class="primary">
 			<header>
 				<h1>Golden rules for Throwing</h1>
@@ -361,8 +366,9 @@ article header h1:before
 							<div class="how">
 								<ol>
 									<li>Have your seat placed so your elbows can firmly touch your body and your hands can move over the centre of the wheel.</li>
-									<li>If you've got short legs (like me), and your wheel has a fixed peddle (as most do), rotate your wheel so the peddle is closer to you. You don't want to have your leg too stretched out.</li>
-									<li>Adjust your seat so that the top of your groin is roughly level with the top of what will become your centred peace of clay. (The larger the piece of clay the higher your seat should be.)</li>
+									<li>If you've got short legs (like me), and your wheel has a fixed peddle (as most do), rotate your wheel so the peddle is closer to you. You don't want to have your leg too stretched out. Having your Ieg stretched out reduces your leg's ability to provide support for the rest of your body.</li>
+									<li>Adjust your seat so that the top of your seat roughly level with head of the wheel. (The larger the piece of clay the higher your seat should be.)</li>
+									<li>Perch on your seat. If you sit back in your seat your body weight is supported by your bum. If you perch on your seat, your legs need to ballance you. As you lean forward to put your hands on your pot (if you have your arms supported) your arms start taking the weight of your upper body providing making your arms less mobile and thus less susceptible to moving freely when they shouldn't</li>
 								</ol>
 							</div>
 						</article>
@@ -389,9 +395,7 @@ article header h1:before
 								<h1>Always keep both hands connected</h1>
 							</header>
 							<div class="why">When you are learning, your biggest issue is control over how your hands interact with the pot. If your hands are connected you don't have think about whether they are moving in the same way/complimentary way.</div>
-							<div class="how page-br">
-							I generally keep some part of my thumbs connected (usually the outside of my palms on the thumb side). As the pot gets bigger I change to keeping the tips of my thumbs connected. Some people hook their thumbs together.
-						</div>
+							<div class="how"> I generally keep some part of my thumbs connected (usually the outside of my palms on the thumb side). As the pot gets bigger I change to keeping the tips of my thumbs connected. Some people hook their thumbs together. </div>
 						</article>
 					</li>
 					<li id="clean-base1">
@@ -410,15 +414,15 @@ article header h1:before
 							</header>
 							<div class="why">If your pot is not slippery, it is sticky. This stickiness will cause stress on the walls of your pot and tend to cause unwanted/excessive twisting in the clay. This twisting invariably causes the pot to collapse.</div>
 							<div class="how">
-							<p>Each time you take your hand off the pot:</p>
-							<ol>
-								<li>Dunk your sponge in your water</li>
-								<li>Make the wheel move moderately slowly</li>
-								<li>Hold your hand (unmoving) over the gently rotating rim of the pot (or the top of your mound of clay, if you haven't opened up yet)</li>
-								<li>As the pot/mound moves below your hand, gently squeeze the water out of the sponge so it runs down your hand and off the knuckle of your little finger onto the rim of the pot</li>
-								<li>Gently adjust the position of your hand so water runs onto the pot flowing down both the inside and outside</li>
-							</ol>
-						</div>
+								<p>Each time you take your hand off the pot:</p>
+								<ol>
+									<li>Dunk your sponge in your water</li>
+									<li>Make the wheel move moderately slowly</li>
+									<li>Hold your hand (unmoving) over the gently rotating rim of the pot (or the top of your mound of clay, if you haven't opened up yet)</li>
+									<li>As the pot/mound moves below your hand, gently squeeze the water out of the sponge so it runs down your hand and off the knuckle of your little finger onto the rim of the pot</li>
+									<li>Gently adjust the position of your hand so water runs onto the pot flowing down both the inside and outside</li>
+								</ol>
+							</div>
 						</article>
 					</li>
 					<li id="right">
@@ -445,33 +449,29 @@ article header h1:before
 							<div class="Why">This is the time when you need to apply the most force to the clay because you need it to change from a lumpy, jarring blob to a smooth round dome.</div>
 						</article>
 					</li>
-					<li id="body" class="hot page-br">
+					<li id="body" class="hot">
 						<article>
 							<h1>Use your body to give you extra power</h1>
 							<div class="details">Your hands and especially your fingers are not particularly strong. (This is especially true when first learning to throw.) By using your body in the following ways, you add significantly to the force you can apply to a lumpy blob of clay (or a large fat doughnut of clay you want to bring up into a cylinder).</div>
-							<div class="note">
-								(The following applies to wheels that move counter clock-wise (western/European wheels). If your wheel rotates clock-wise (Asian wheels), just swap the hands/feet assigned.)<br />
-							</div>
+							<div class="note"> (The following applies to wheels that move counter clock-wise (western/European wheels). If your wheel rotates clock-wise (Asian wheels), just swap the hands/feet assigned.)
+								<br /> </div>
 							<div class="how">
 								<h2>For people who are taller than 157cm (5ft 4in):</h2>
 								<ol>
 									<li>Tuck your left elbow into your hip so that it is resting.</li>
 									<li>As you need more force, lean on your left arm. (This has the benefit of adding your body weight to the force you can apply to the clay.)</li>
 								</ol>
-
 								<h2>For people who are shorter than 157cm (5ft 4in):</h2>
 								<ol>
 									<li>If your arms aren't long enough, put your left foot on something (like a brick or two) to raise your thigh.</li>
 									<li>Tuck your left elbow into your inner thigh.</li>
-									<li>As you need more force, use your leg to provide extra the muscle (this gives the same effect as leaning on your arm although it lacks the benefits  of using body mass).</li>
+									<li>As you need more force, use your leg to provide extra the muscle (this gives the same effect as leaning on your arm although it lacks the benefits of using body mass).</li>
 								</ol>
 								<h2>For everybody:</h2>
 								<ol>
 									<li>Try and place your left palm at a right angle to your forearm.</li>
-									<li>
-										Apply the force from your body, through your forearm and out (in a straight line) through the heal of your palm.<br />
-										Only apply force using the heal of your palm. (Don't use your fingers or even the top of your palm as the flexibility in your hand allows the clay to push your hand about rather than the other way around.)
-									</li>
+									<li> Apply the force from your body, through your forearm and out (in a straight line) through the heal of your palm.
+										<br /> Only apply force using the heal of your palm. (Don't use your fingers or even the top of your palm as the flexibility in your hand allows the clay to push your hand about rather than the other way around.) </li>
 									<li>Always use your other hand to apply downwards pressure to stop yourself from pushing the clay off the wheel.</li>
 									<li>Alternate between sideways pressure and downwards pressure to work your clay</li>
 								</ol>
@@ -490,10 +490,8 @@ article header h1:before
 							<header>
 								<h1>Never let any water sit in the bottom of your pot</h1>
 							</header>
-							<div class="why">
-								Clay absorbs water. When the water sits in the bottom of your pot, more water is absorbed there than anywhere else. As the clay dries out it shrinks. The bit that has the most water dries last but it still needs to shrink, even if the rest of the pot has shrunk as much as it can. This final shrink in the bottom will cause a crack.<br />
-								(This type of crack is called an "S" crack because it forms an "S" shape across the centre of the bottom of your pot.)
-							</div>
+							<div class="why"> Clay absorbs water. When the water sits in the bottom of your pot, more water is absorbed there than anywhere else. As the clay dries out it shrinks. The bit that has the most water dries last but it still needs to shrink, even if the rest of the pot has shrunk as much as it can. This final shrink in the bottom will cause a crack.
+								<br /> (This type of crack is called an "S" crack because it forms an "S" shape across the centre of the bottom of your pot.) </div>
 							<div class="how">Use a sponge to sop up the excess water immediately after rewetting the pot.</div>
 						</article>
 					</li>
@@ -503,10 +501,8 @@ article header h1:before
 								<h1>Always pull up on the side that's moving away from you</h1>
 							</header>
 							<div class="why">If your clay gets sticky, it can cause your fingers to catch on the walls of your pot. If you pull up on the side coming towards you and your fingers stick, they will be forced into the wall of your pot. Usually this means the very sudden demise of your pot.</div>
-							<div class="how">
-								If your wheel is rotating counter-clock-wise (normal for western wheels/potters), work on the right hand side of the pot.<br />
-								If your wheel is rotating clock-wise (normal for Asian wheels/potters), work on the left hand side of the pot.
-							</div>
+							<div class="how"> If your wheel is rotating counter-clock-wise (normal for western wheels/potters), work on the right hand side of the pot.
+								<br /> If your wheel is rotating clock-wise (normal for Asian wheels/potters), work on the left hand side of the pot. </div>
 						</article>
 					</li>
 					<li id="bottom-top">
@@ -554,15 +550,18 @@ article header h1:before
 					</li>
 					<li id="water2" class="reminder">
 						<article>
-							<h1>Never leave any water sitting in the bottom of your pot</h1>
+							<header>
+								<h1>Never leave any water sitting in the bottom of your pot</h1>
+							</header>
 							<div class="why">See <a href="#no-water">rule 9</a> for how &amp; why.</div>
 						</article>
 					</li>
 					<li id="extra" class="hot">
 						<article>
-							<h1>Fragile pots need some extra help</h1>
+							<header>
+								<h1>Fragile pots need some extra help</h1>
+							</header>
 							<p>If you're not using a <em>bat</em> and have to lift the pot off the wheel, you often get some distortion in you pot</p>
-
 							<div class="how">
 								<ol>
 									<li>Gently place a square of newspaper over the pot so there's an inch or so overhang in every direction.</li>
@@ -577,8 +576,7 @@ article header h1:before
 			</section>
 			<section id="after-off" class="sub page-br">
 				<header>
-					<h1>After you've taken the pot off</h1>
-				</header>
+					<h1>After you've taken the pot off</h1> </header>
 				<ol>
 					<li id="care">
 						<article>
@@ -595,10 +593,9 @@ article header h1:before
 								<h1>Flip your pot over as soon as you can</h1>
 							</header>
 							<div class="why">The bulk of moisture in your pot is in the base. It is also the area that has the poorest air circulation. By placing the pot bottom up you greatly increase the area from which the moisture can evaporate. Also the moisture in your pot tends to follow the force of gravity. By making the moisture head towards the rim of your pot, you move it to an area of larger surface area by weight, thus making your pot dry more evenly.</div>
-							<div class="how">
-								As soon as your pot is <em>dry enough</em>, flip it over!<br />
-								(By "<em>dry enough</em>" I mean that when you touch the rim it moves a little bit but not too freely. And it's not sticky. This state is called "leather hard".<br />
-								If it's a larger pot:
+							<div class="how"> As soon as your pot is <em>dry enough</em>, flip it over!
+								<br /> (By "<em>dry enough</em>" I mean that when you touch the rim it moves a little bit but not too freely. And it's not sticky. This state is called "leather hard".
+								<br /> If it's a larger pot:
 								<ol>
 									<li>Put a bat on top (the bat must be big enough to cover the entire rim of the pot)</li>
 									<li>(If it's not already sitting on a bat) place the bottom on another bat</li>
@@ -620,7 +617,6 @@ article header h1:before
 				</ol>
 			</section>
 		</section>
-
 		<section class="primary page-br">
 			<h1>Golden rules for turning</h1>
 			<div class="question">
@@ -636,7 +632,9 @@ article header h1:before
 				<ol>
 					<li id="not-wet">
 						<article>
-							<header><h1>The pot should not be too wet</h1></header>
+							<header>
+								<h1>The pot should not be too wet</h1>
+							</header>
 							<div class="details">
 								<h2>The pot is too wet if:</h2>
 								<ul>
@@ -659,7 +657,9 @@ article header h1:before
 					</li>
 					<li id="not-dry">
 						<article>
-							<header><h1>The pot should not be too dry</h1></header>
+							<header>
+								<h1>The pot should not be too dry</h1>
+							</header>
 							<div class="details">
 								<h2>The pot is too dry if</h2>
 								<ul>
@@ -672,78 +672,109 @@ article header h1:before
 							<div class="why page-br">There are several reasons why the pot should not be too dry:
 								<ul>
 									<li>It becomes much more fragile</li>
-									<li>
-										When turning, you generate a very fine dust that is easily inhaled.<br />
-										(That dust is carcinogenic  in sufficient doses)
-									</li>
-									<li>
-										It rapidly damages the turning tools.<br />
-										(All turning wears down the tools. When the clay is hard this can happen in a matter of minutes instead of hours. Thus dramatically (and needlessly) reducing the life of the tool.)
-									</li>
+									<li> When turning, you generate a very fine dust that is easily inhaled.
+										<br /> (That dust is carcinogenic in sufficient doses) </li>
+									<li> It rapidly damages the turning tools.
+										<br /> (All turning wears down the tools. When the clay is hard this can happen in a matter of minutes instead of hours. Thus dramatically (and needlessly) reducing the life of the tool.) </li>
 								</ul>
 							</div>
 							<div class="how">You can reduce the dryness by dunking whole pot in water a couple of times, then dunking only the foot a couple more times. Letting it sit for a couple of minutes between each dunk. Once you've got the pot on the wheel, if you are still (or start) getting fine flakes of clay or dust when you're turning, damp the pot down with a wet sponge (ensuring that no water drips down the pot) every time your turnings become too fine.</div>
 						</article>
 					</li>
-					<li id="small-cut">
+					<li id="seat">
 						<article>
-							<header><h1>Use the smallest cutting edge possible on irregular surfaces (even on big pots)</h1></header>
-							<div class="why">If you're trying to remove irregularities from the bottom of your pot you need to hold your hands as steady as possible. A small cutting surface has much less resistance to the pot so it is less likely to be pushed around by the pot. This, in turn, makes it much easier to even up the surface</div>
-							<div class="how">Choose a tool that either has a small blade (these are usually the older tools) or one that has a very tight curve or square corner.</div>
+							<header>
+								<h1>Have your seat adjusted and placed right</h1>
+							</header>
+							<div class="details">The further you are away from your pot, the more extended your arms need to be to reach your work, the further away support is from your hands and the harder it is to get control over your hands</div>
+							<div class="why">You want to be comfortable and strong. If your seat is not in the right place, at the right height you will not have the control you need to overcome the possible irregularities in your form. You will also be able to keep your back straighter and be less hunched over which will help with breathing easily.</div>
+							<div class="note">Your seat position for turning is very different to what you need for throwing.</div>
+							<div class="how">
+								<ol>
+									<li>Have your seat placed so your elbows can firmly touch your body and your hands can move to the near half of the wheel head.</li>
+									<li>If you've got short legs (like me), and your wheel has a fixed peddle (as most do), rotate your wheel so the peddle is closer to you. You don't want to have your leg too stretched out. Having your Ieg stretched out reduces your leg's ability to provide support for the rest of your body.</li>
+									<li>Adjust your seat so that the top of your seat well below the level with head of the wheel. (The larger the piece of clay the higher your seat should be.)</li>
+									<li>Sit well back on your seat so your body weight is fully supported by your bum and so you can have a straight back.</li>
+								</ol>
+							</div>
 						</article>
 					</li>
-					<li id="close">
+					<li id="close" class="page-br">
 						<article>
-							<header><h1>Support your hands and arms</h1></header>
+							<header>
+								<h1>Support your hands and arms</h1>
+							</header>
 							<div class="why">The further away you are from your pot, the harder it is to provide support for your hands and the harder it is to have control. By sitting as close to the pot as possible you can rest your fore-arms or elbows on your thighs or knees or tuck your elbows into your ribs. I also like to have the other end of the turning tool (the one not on the pot) resting firmly on my chin during the early stages of turning to get added support and control.</div>
 							<div class="how">Have your seat as close to the wheel as possible and as low as possible.</div>
 							<div class="note">If you sit all tucked up for too long you can get stiff and cramped. You should get up regularly</div>
 						</article>
 					</li>
+					<li id="small-cut">
+						<article>
+							<header>
+								<h1>Use the smallest cutting edge possible on irregular surfaces (even on big pots)</h1>
+							</header>
+							<div class="why">If you're trying to remove irregularities from the bottom of your pot you need to hold your hands as steady as possible. A small cutting surface has much less resistance to the pot so it is less likely to be pushed around by the pot. This, in turn, makes it much easier to even up the surface</div>
+							<div class="how">Choose a tool that either has a small blade (these are usually the older tools) or one that has a very tight curve or square corner.</div>
+						</article>
+					</li>
 					<li id="centred">
 						<article>
-							<header><h1>Centre the pot relative to the foot.</h1></header>
+							<header>
+								<h1>Centre the pot relative to the foot.</h1>
+							</header>
 							<div class="why">Your pot may not be perfectly centred all over. If you centre your pot relative to its rim or belly, you may find your foot is off centre. This makes it much harder to turn.</div>
 						</article>
 					</li>
 					<li id="fast">
 						<article>
-							<header><h1>Have the wheel rotating fast</h1></header>
-							<div class="why">
-								If your wheel is rotating fast, the mass of your hands and arms makes it harder for the pot to push you around. Thus it is easier for you to clean up any irregularities. You don't need to apply as much pressure to cut the same amount of clay off the pot and it reduces the likely hood having a catastrophic failure due to excess pressure in one spot.<br />
-								If your wheel is rotating slowly and the pot's surface is uneven (as is normally the case), you are less able to hold your hands steady to remove the irregularities.
-							</div>
+							<header>
+								<h1>Have the wheel rotating fast</h1>
+							</header>
+							<div class="why"> If your wheel is rotating fast, the mass of your hands and arms makes it harder for the pot to push you around. Thus it is easier for you to clean up any irregularities. You don't need to apply as much pressure to cut the same amount of clay off the pot and it reduces the likely hood having a catastrophic failure due to excess pressure in one spot.
+								<br /> If your wheel is rotating slowly and the pot's surface is uneven (as is normally the case), you are less able to hold your hands steady to remove the irregularities. </div>
 						</article>
 					</li>
-					<li id="slow">
+					<li id="slow" class="page-br">
 						<article>
-							<header><h1>Move the turning tool slowly</h1></header>
+							<header>
+								<h1>Move the turning tool slowly</h1>
+							</header>
 							<div class="why">If the tool is moving slowly you're less likely to get ring (or rather spiral) marks in your pot.</div>
 						</article>
 					</li>
 					<li id="centre-first" class="hot">
 						<article>
-							<h1>Start with the centre of the foot</h1>
-							<div class="details">This is solely for pragmatic reasons</div>
+							<header>
+								<h1>Start with the centre of the foot</h1>
+							</header>
+							<div class="details">This is mostly for pragmatic reasons</div>
 							<div class="why">
 								Doing the centre of the foot is the bit that you're most likely to stuff up.
-								You have to clean the centre of the foot some time.
-								So you may as well cut your losses and do the risky bit first.
+								You have to clean the centre of the foot some time, so you may as well cut your losses and do the risky bit first.
 								If you do stuff it, you haven't invested all that time and energy making the rest of your pot look fantastic. So it's less traumatic.
-								If everything goes smoothly (which should be most of the time) you haven't lost anything.
+								If everything goes smoothly (which should be most of the time) you haven't lost anything.<br />
+								The other thing is that knowing how much clay you've trimmed off the bottom of your pot helps you judge how much you have to take off the sides.
 							</div>
 						</article>
 					</li>
 					<li id="outside-inside">
 						<article>
-							<header><h1>Make the outside shape match the inside shape</h1></header>
+							<header>
+								<h1>Make the outside shape match the inside shape</h1>
+							</header>
 							<div class="details">When you're throwing your pot you have a lot of control over the top 2/3 to 3/4 of the pot, but very little control over the bottom 1/3 to 1/4. The best you can do is make the inside look good. Turning is our chance to make the outside shape match the inside, thus giving our pots an even balance.</div>
-							<div class="why">(Theoretically) the upper part of the walls of your pot are an even thickness all the way up. Making the lower part of the pot the same thickness as the rest of the pot allows for even drying and also helps for even distribution of glaze when it is applied. It also gives the pot a much more balanced weight making it nicer to hold.</div>
+							<div class="why">
+								(Theoretically) the upper part of the walls of your pot are an even thickness all the way up. Making the lower part of the pot the same thickness as the rest of the pot allows for even drying. It also helps for even distribution of glaze when it is applied. (More glaze will be absorbed where the clay is thicker.)<br />
+								It also gives the pot a much more balanced weight making it nicer to hold.
+							</div>
 						</article>
 					</li>
 					<li id="clean-rim">
 						<article>
-							<header><h1>Clean up the rim when finished</h1></header>
+							<header>
+								<h1>Clean up the rim when finished</h1>
+							</header>
 							<div class="why">Because the rim is in contact with the wheel head during turning it can get slightly damaged. (Or at least look less pristine than it should.)</div>
 							<div class="how">Using a moderately wet sponge wipe around the rim in a rolling, spiral motion, moving from inside to outside as you go around.</div>
 						</article>
@@ -751,7 +782,9 @@ article header h1:before
 	<!--
 					<li id="">
 						<article>
-							<header><h1></h1></header>
+							<header>
+								<h1></h1>
+							</header>
 							<div class="details"></div>
 							<div class="why"></div>
 							<div class="how"></div>
