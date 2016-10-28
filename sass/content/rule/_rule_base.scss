@@ -1,0 +1,51 @@
+
+article {
+	padding-left: 6.5em;
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+	border-bottom: 0.1em dashed #ccc;
+	ol li {
+		margin-left: 1em !important;
+		padding-left: 0.5em !important;
+		margin-bottom: 0.5em;
+		page-break-inside: avoid;
+	}
+	&.last {
+		border-bottom: none;
+	}
+	@media print {
+		font-size: 14px;
+		padding-top: 0em;
+		padding-bottom: 1em;
+		header {
+			page-break-inside: avoid;
+			page-break-after: avoid;
+		}
+	}
+}
+
+
+.details,
+.how,
+.note,
+.why {
+	position: relative;
+	padding-left: 4em;
+	margin-top: 0.5em;
+	font-weight: normal;
+
+	&:before {
+		font-weight: bold;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+	}
+}
+
+.details:before { content: 'Details:'; }
+
+.how:before { content: 'How?'; }
+
+.why:before { content: 'Why?'; }
+
+.note:before { content: 'Note:'; }

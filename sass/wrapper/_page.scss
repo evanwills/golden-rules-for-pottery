@@ -1,0 +1,19 @@
+
+@page {
+	size: 210mm 297mm;
+	margin: 1.5cm;
+
+	@top-left {
+		padding-left: 1em;
+		padding-top: 1em;
+    	content: "Evan's Golden rules for easier potting";
+	}
+
+	@top-right {
+		content: "By Evan Wills";
+	}
+
+	@bottom-left {
+    	content: "github.com/evanwills/golden-rules-for-pottery";
+	}
+}

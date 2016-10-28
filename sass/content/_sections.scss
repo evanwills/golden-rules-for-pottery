@@ -1,0 +1,55 @@
+.primary {
+	counter-reset: rule;
+
+	h1 { font-size: 150%; }
+	&:fist-of-type {
+		border-top: 0.2em solid #ccc;
+	}
+}
+.sub {
+	border-top: 0.1em solid #555;
+	border-bottom: 0.1em solid #555;
+	margin-bottom: 0.2em;
+	padding-top: 1em;
+	> header > h1 { font-size: 130%; }
+	ol {
+		maring-left: 0%;
+		padding-left: 0%;
+		li {
+			margin-left: 0%;
+			padding-left: 0%;
+		}
+	}
+	&:first-of-type {
+		border-top: none;;
+	}
+}
+
+@media screen {
+
+	.primary {
+		padding-top: 4.5em;
+		padding-bottom: 9em;
+	}
+	.sub {
+		padding-top: 3em;
+		padding-bottom: 3em;
+		&:first-of-type {
+			padding-top: 1em;
+		}
+	}
+}
+
+@media print {
+
+	.page-br {
+		page-break-before: always;
+		border-top: none;
+		padding-top: 0%;
+	}
+
+	.sub {
+		padding-top: 1em;
+		padding-bottom: 2em;
+	}
+}

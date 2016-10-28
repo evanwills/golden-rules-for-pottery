@@ -1,0 +1,44 @@
+
+.sub article {
+	h1 {
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 115%;
+		&:before {
+			font-weight: normal;
+			display: block;
+			margin-left: -5.7em;
+			margin-bottom: -1em;
+		}
+	}
+	h2 {
+		font-size: 105%;
+	}
+}
+.rule {
+	h1:before {
+		content: 'Rule ' counter(rule);
+		counter-increment: rule;
+		@media print {
+			position: relative;
+			top: 0.15em;
+		}
+	}
+}
+
+.reminder  {
+	h1:before {
+		content: 'Reminder ';
+	}
+}
+
+.hot  {
+	h1:before {
+		content: 'Hot tip: ';
+	}
+}
+
+.note  {
+	h1:before {
+		content: 'Note: ';
+	}
+}

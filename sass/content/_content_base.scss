@@ -1,0 +1,46 @@
+
+
+h1, h2, h3 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 175%;
+}
+
+h2 {
+	font-size: 125%;
+}
+
+ol {
+	li {
+		list-style-type: none;
+		margin-left: 6.6em;
+		margin-bottom: 1.5em;
+		position: relative;
+	}
+	ol li {
+		list-style-type: lower-alpha;
+	}
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+	color: #555;
+}
+
+
+
+ul li {
+	list-style-type: disc;
+	margin-left: 1em;
+	padding-left: 1em;
+	margin-bottom: 0.25em;
+	font-weight: normal;
+	position: relative;
+}

@@ -1,0 +1,31 @@
+
+.question {
+	/* border: 0.1em solid #999; */
+	padding: 1em;
+	margin: 2em 5em 1em;
+	@include border-radius(0.25em);
+	@include box-shadow( 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6));
+//	border-top: 0.1em solid #999;
+//	border-left: 0.1em solid #999;
+
+	p {
+		margin: 0.5em 0%;
+	}
+	ol li {
+		list-style-type: decimal;
+		margin: 0% 0% 0.5em 1.5em;
+		padding: 0% 0% 0% 0.5em;
+	}
+
+	@media print {
+		border-width: 0.1em;
+		border-style: solid;
+		border-top-color: #ccc;
+		border-right-color: #999;
+		border-bottom-color: #999;
+		border-left-color: #ccc;
+		@include box-shadow(none);
+		margin: 1.5em 5em 0em;
+		padding: 0% 1em;
+	}
+}
