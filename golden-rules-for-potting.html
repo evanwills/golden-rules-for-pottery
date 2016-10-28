@@ -17,325 +17,7 @@
  ! START: browser reset
  ! -->
 		<style type="text/css">
-/* =========================================================
-This resets all browser defaults CSS values
-Adapted (minimally) from Eric Meyer's "Reset Reloaded" CSS
-http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
-========================================================== */
-
-html, body, div, span, applet, object, iframe, h1, h2, h3,
-h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
-big, cite, code, del, dfn, em, font, img, ins, kbd, q, s,
-samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd,
-ol, ul, li, fieldset, form, label, legend, table, caption,
-tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-	vertical-align: baseline;
-}
-/* remember to define focus styles! */
-
-:focus {
-	outline: 0;
-}
-
-body {
-	line-height: 1;
-	color: #000;
-	background: #fff;
-}
-
-ol, ul {
-	list-style: none;
-}
-
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-}
-
-caption, th, td {
-	text-align: left;
-	font-weight: normal;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-	content: "";
-}
-
-blockquote, q {
-	quotes: "" "";
-}
-		</style>
-<!--
- ! END: browser reset
- ! ==================================================================
- ! START: actual styles
- ! -->
-		<style type="text/css">
-body {
-	font-family: arial, helvetica, sans-serif;
-	line-height: 1.25em;
-	max-width: 40em;
-	margin: 1em auto;
-}
-
-section.primary {
-	counter-reset: rule;
-}
-
-h1, h2 {
-	font-family: verdana, arial, helvetica, sans-serif;
-	font-weight: bold;
-}
-
-h1 {
-	font-size: 175%;
-}
-
-h2 {
-	font-size: 125%;
-}
-
-ol li {
-	list-style-type: none;
-	margin-left: 6.6em;
-	margin-bottom: 1.5em;
-}
-
-em {
-	font-style: italic;
-}
-
-strong {
-	font-weight: bold;
-	color: #555;
-}
-
-article ol li {
-	margin-left: 2em;
-	margin-bottom: 0.5em;
-}
-
-ul li {
-	list-style-type: disc;
-	margin-left: 1em;
-	padding-left: 1em;
-	margin-bottom: 0.25em;
-	font-weight: normal;
-}
-
-ol li, ul li {
-	position: relative;
-}
-
-ol ol li {
-	list-style-type: lower-alpha;
-}
-
-div.details,
-div.how,
-div.note,
-div.why {
-	position: relative;
-	padding-left: 4em;
-	margin-top: 0.5em;
-	font-weight: normal;
-}
-
-div.details:before,
-div.how:before,
-div.note:before,
-div.why:before {
-	font-weight: bold;
-	position: absolute;
-	top: 0%;
-	left: 0%;
-}
-
-div.details:before {
-	content: 'Details:';
-}
-
-div.how:before {
-	content: 'How?';
-}
-
-div.why:before {
-	content: 'Why?';
-}
-
-div.note:before {
-	content: 'Note:';
-}
-
-section h1 {
-	font-size: 140%;
-}
-
-section {
-	border-top: 0.1em solid #333;
-	margin-top: 2em;
-	padding-top: 0.5em;
-}
-
-section header+ol {
-	margin-top: 1em;
-}
-
-article h1 {
-	font-family: verdana, arial, helvetica, sans-serif;
-	font-size: 120%;
-}
-
-article h2 {
-	font-size: 110%;
-}
-
-article h1:before {
-	font-weight: normal;
-	display: block;
-	margin-left: -5.45em;
-	margin-bottom: -1em;
-}
-
-article header h1:before {
-	content: 'Rule ' counter(rule);
-	counter-increment: rule;
-}
-
-.reminder article h1:before {
-	content: 'Reminder ';
-}
-
-.hot article h1:before {
-	content: 'Hot tip: ';
-}
-
-.note article h1:before {
-	content: 'Note: ';
-}
-
-.page-br {
-	page-break-before: always;
-}
-
-.question {
-	/* border: 0.1em solid #999; */
-	padding: 1em;
-	margin: 2em 5em 1em;
-	-webkit-border-radius: 1em;
-	-khtml-border-radius: 1em;
-	-moz-border-radius: 1em;
-	-ms-border-radius: 1em;
-	-o-border-radius: 1em;
-	border-radius: 1em;
-	-webkit-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
-	-khtml-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
-	-moz-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
-	-ms-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
-	-o-box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
-	box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
-	border-top: 0.1em solid #999;
-	border-left: 0.1em solid #999;
-}
-
-.question p {
-	margin: 0.5em 0%;
-}
-
-.question ol li {
-	list-style-type: decimal;
-	margin: 0% 0% 0.5em 1.5em;
-	padding: 0% 0% 0% 0.5em;
-}
-
-.by {
-	margin: 1em 0%;
-}
-
-.by span {
-	font-style: italic;
-	font-weight: bold;
-	color: #666;
-}
-
-.source {
-	font-weight: normal !important;
-	font-size: 90%;
-	padding-left: 2em;
-}
-
-@media screen {
-	.primary {
-		margin-bottom: 9em;
-		margin-top: 4.5em;
-	}
-	.sub {
-		margin-top: 3em;
-		margin-bottom: 5em;
-	}
-}
-
-@media print {
-	a {
-		text-decoration: none !important;
-	}
-	p.link {
-		margin-top: -1em;
-	}
-	.link a {
-		color: #000;
-		font-weight: bold;
-	}
-	.link a:after {
-		content: '[' attr(href) ']';
-		padding: 0% 0.3em;
-		color: #aaa;
-		font-size: 75%;
-		font-style: italic;
-		font-weight: normal;
-	}
-	.link a:before {
-		content: 'For ';
-		padding: 0%;
-		color: #aaa;
-		font-weight: normal;
-	}
-	a.hidden:after {
-		content: '[' attr(title) ']';
-		padding: 0% 0.3em;
-		color: #aaa;
-		font-size: 75%;
-		font-style: italic;
-	}
-	.question {
-		border-right: 0.1em solid #999;
-		border-bottom: 0.1em solid #999;
-		-webkit-box-shadow: none;
-		-khtml-box-shadow: none;
-		-moz-box-shadow: none;
-		-ms-box-shadow: none;
-		-o-box-shadow: none;
-		box-shadow: none;
-		margin: 1.5em 5em 0em;
-	}
-	.sub {
-		margin-top: 1em;
-		margin-bottom: 2em;
-	}
-}
-
-@page {
-	margin: 1.5cm;
-}
+h1,h2,h3{font-family:verdana, arial, helvetica, sans-serif;font-weight:bold}h1{font-size:175%}h2{font-size:125%}ol li{list-style-type:none;margin-left:6.6em;margin-bottom:1.5em;position:relative}ol ol li{list-style-type:lower-alpha}em{font-style:italic}strong{font-weight:bold;color:#555}ul li{list-style-type:disc;margin-left:1em;padding-left:1em;margin-bottom:0.25em;font-weight:normal;position:relative}.primary{counter-reset:rule}.primary h1{font-size:150%}.primary:fist-of-type{border-top:0.2em solid #ccc}.sub{border-top:0.1em solid #555;border-bottom:0.1em solid #555;margin-bottom:0.2em;padding-top:1em}.sub>header>h1{font-size:130%}.sub ol{maring-left:0%;padding-left:0%}.sub ol li{margin-left:0%;padding-left:0%}.sub:first-of-type{border-top:none}@media screen{.primary{padding-top:4.5em;padding-bottom:9em}.sub{padding-top:3em;padding-bottom:3em}.sub:first-of-type{padding-top:1em}}@media print{.page-br{page-break-before:always;border-top:none;padding-top:0%}.sub{padding-top:1em;padding-bottom:2em}}article{padding-left:6.5em;padding-top:0.5em;padding-bottom:2em;border-bottom:0.1em dashed #ccc}article ol li{margin-left:1em !important;padding-left:0.5em !important;margin-bottom:0.5em;page-break-inside:avoid}article.last{border-bottom:none}@media print{article{font-size:14px;padding-top:0em;padding-bottom:1em}article header{page-break-inside:avoid;page-break-after:avoid}}.details,.how,.note,.why{position:relative;padding-left:4em;margin-top:0.5em;font-weight:normal}.details:before,.how:before,.note:before,.why:before{font-weight:bold;position:absolute;top:0%;left:0%}.details:before{content:'Details:'}.how:before{content:'How?'}.why:before{content:'Why?'}.note:before{content:'Note:'}.question{padding:1em;margin:2em 5em 1em;-moz-border-radius:.25em;-webkit-border-radius:.25em;border-radius:.25em;-moz-box-shadow:0.3em 0.3em 0.5em rgba(0,0,0,0.6);-webkit-box-shadow:0.3em 0.3em 0.5em rgba(0,0,0,0.6);box-shadow:0.3em 0.3em 0.5em rgba(0,0,0,0.6)}.question p{margin:0.5em 0%}.question ol li{list-style-type:decimal;margin:0% 0% 0.5em 1.5em;padding:0% 0% 0% 0.5em}@media print{.question{border-width:0.1em;border-style:solid;border-top-color:#ccc;border-right-color:#999;border-bottom-color:#999;border-left-color:#ccc;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;margin:1.5em 5em 0em;padding:0% 1em}}.sub article h1{font-family:verdana, arial, helvetica, sans-serif;font-size:115%}.sub article h1:before{font-weight:normal;display:block;margin-left:-5.7em;margin-bottom:-1em}.sub article h2{font-size:105%}.rule h1:before{content:"Rule " counter(rule);counter-increment:rule}@media print{.rule h1:before{position:relative;top:0.15em}}.reminder h1:before{content:'Reminder '}.hot h1:before{content:'Hot tip: '}.note h1:before{content:'Note: '}body{font-family:arial, helvetica, sans-serif;line-height:1.25em;max-width:40em;margin:1em auto}@page{size:210mm 297mm;margin:1.5cm;@top-left{padding-left:1em;padding-top:1em;content:"Evan's Golden rules for easier potting"}@top-right{content:"By Evan Wills"}@bottom-left{content:"github.com/evanwills/golden-rules-for-pottery"}}
 		</style>
 <!--
  ! END: actual styles
@@ -348,7 +30,7 @@ article header h1:before {
 		<p class="by"> Written by: <span>Evan Wills</span> </p>
 		<section class="primary">
 			<header>
-				<h1>Golden rules for Throwing</h1>
+				<h1>Golden rules for throwing</h1>
 				<span class="source"><a href="https://github.com/evanwills/golden-rules-for-pottery">github.com/evanwills/golden-rules-for-pottery</a></span>
 			</header>
 			<section class="sub">
@@ -357,7 +39,7 @@ article header h1:before {
 				</header>
 				<ol>
 					<li id="seat">
-						<article>
+						<article class="rule no1">
 							<header>
 								<h1>Have your seat adjusted and placed right</h1>
 							</header>
@@ -374,7 +56,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="touch">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Only touch the pot when it's moving</h1>
 							</header>
@@ -382,7 +64,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="slow">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Everything you do needs to be a slow, gentle, fluid movement</h1>
 							</header>
@@ -390,7 +72,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="hands">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Always keep both hands connected</h1>
 							</header>
@@ -399,7 +81,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="clean-base1">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Always clean up the base of your pot</h1>
 							</header>
@@ -408,9 +90,9 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="slippery">
-						<article>
+						<article class="rule">
 							<header>
-								<h1>Always keep the pot slippery</h1>
+								<h1>Always keep your hands and the pot slippery</h1>
 							</header>
 							<div class="why">If your pot is not slippery, it is sticky. This stickiness will cause stress on the walls of your pot and tend to cause unwanted/excessive twisting in the clay. This twisting invariably causes the pot to collapse.</div>
 							<div class="how">
@@ -426,7 +108,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="right">
-						<article>
+						<article class="rule last page-br">
 							<header>
 								<h1>Get each step right before moving on</h1>
 							</header>
@@ -442,19 +124,18 @@ article header h1:before {
 				</header>
 				<ol>
 					<li id="right">
-						<article>
+						<article class="rule no1">
 							<header>
 								<h1>Apply your main force from the side, on the side coming towards you.</h1>
 							</header>
 							<div class="Why">This is the time when you need to apply the most force to the clay because you need it to change from a lumpy, jarring blob to a smooth round dome.</div>
 						</article>
 					</li>
-					<li id="body" class="hot">
-						<article>
+					<li id="body">
+						<article class="hot last">
 							<h1>Use your body to give you extra power</h1>
 							<div class="details">Your hands and especially your fingers are not particularly strong. (This is especially true when first learning to throw.) By using your body in the following ways, you add significantly to the force you can apply to a lumpy blob of clay (or a large fat doughnut of clay you want to bring up into a cylinder).</div>
-							<div class="note"> (The following applies to wheels that move counter clock-wise (western/European wheels). If your wheel rotates clock-wise (Asian wheels), just swap the hands/feet assigned.)
-								<br /> </div>
+							<div class="note"> (The following applies to wheels that move counter clock-wise (western/European wheels). If your wheel rotates clock-wise (Asian wheels), just swap the hands/feet assigned.)</div>
 							<div class="how">
 								<h2>For people who are taller than 157cm (5ft 4in):</h2>
 								<ol>
@@ -467,7 +148,7 @@ article header h1:before {
 									<li>Tuck your left elbow into your inner thigh.</li>
 									<li>As you need more force, use your leg to provide extra the muscle (this gives the same effect as leaning on your arm although it lacks the benefits of using body mass).</li>
 								</ol>
-								<h2>For everybody:</h2>
+								<h2 class="page-br">For everybody:</h2>
 								<ol>
 									<li>Try and place your left palm at a right angle to your forearm.</li>
 									<li> Apply the force from your body, through your forearm and out (in a straight line) through the heal of your palm.
@@ -480,13 +161,13 @@ article header h1:before {
 					</li>
 				</ol>
 			</section>
-			<section class="sub page-br">
+			<section class="sub">
 				<header>
 					<h1>When Pulling Up</h1>
 				</header>
 				<ol>
-					<li id="no-water">
-						<article>
+					<li id="no-water no1">
+						<article class="rule">
 							<header>
 								<h1>Never let any water sit in the bottom of your pot</h1>
 							</header>
@@ -496,7 +177,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="moving-away">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Always pull up on the side that's moving away from you</h1>
 							</header>
@@ -506,7 +187,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="bottom-top">
-						<article>
+						<article class="rule last page-br">
 							<header>
 								<h1>Always move from the very bottom to the very top</h1>
 							</header>
@@ -521,15 +202,15 @@ article header h1:before {
 					<h1>Before you take the pot off</h1>
 				</header>
 				<ol>
-					<li id="clean-base2" class="reminder">
-						<article>
+					<li id="clean-base2">
+						<article class="reminder no1">
 							<h1>Always clean the base (again)</h1>
 							<div class="why">If you clean the base before you cut the pot from the wheel, it gives you an easy place to pick the pot up from and makes it cleaner for turning.</div>
 							<div class="how">(See <a href="#clean-base1">rule 5</a> for how)</div>
 						</article>
 					</li>
-					<li id="clean-rim" class="page-br">
-						<article>
+					<li id="clean-rim">
+						<article class="rule">
 							<header>
 								<h1>Always clean your rim</h1>
 							</header>
@@ -548,16 +229,16 @@ article header h1:before {
 							</div>
 						</article>
 					</li>
-					<li id="water2" class="reminder">
-						<article>
+					<li id="water2">
+						<article class="reminder">
 							<header>
 								<h1>Never leave any water sitting in the bottom of your pot</h1>
 							</header>
 							<div class="why">See <a href="#no-water">rule 9</a> for how &amp; why.</div>
 						</article>
 					</li>
-					<li id="extra" class="hot">
-						<article>
+					<li id="extra">
+						<article class="hot last">
 							<header>
 								<h1>Fragile pots need some extra help</h1>
 							</header>
@@ -574,12 +255,12 @@ article header h1:before {
 					</li>
 				</ol>
 			</section>
-			<section id="after-off" class="sub page-br">
+			<section id="after-off" class="sub">
 				<header>
 					<h1>After you've taken the pot off</h1> </header>
 				<ol>
 					<li id="care">
-						<article>
+						<article class="rule no1">
 							<header>
 								<h1>Always handle your pot with care</h1>
 							</header>
@@ -588,7 +269,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="flip">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Flip your pot over as soon as you can</h1>
 							</header>
@@ -607,7 +288,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="wrap">
-						<article>
+						<article class="rule last">
 							<header>
 								<h1>Wrap your pot if you're not going to work on it for a couple of days</h1>
 							</header>
@@ -631,7 +312,7 @@ article header h1:before {
 			<section class="sub">
 				<ol>
 					<li id="not-wet">
-						<article>
+						<article class="rule no1">
 							<header>
 								<h1>The pot should not be too wet</h1>
 							</header>
@@ -656,7 +337,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="not-dry">
-						<article>
+						<article class="rule page-br">
 							<header>
 								<h1>The pot should not be too dry</h1>
 							</header>
@@ -669,7 +350,7 @@ article header h1:before {
 								</ul>
 								<p>(Sometimes you can only only tell once you start.)</p>
 							</div>
-							<div class="why page-br">There are several reasons why the pot should not be too dry:
+							<div class="why">There are several reasons why the pot should not be too dry:
 								<ul>
 									<li>It becomes much more fragile</li>
 									<li> When turning, you generate a very fine dust that is easily inhaled.
@@ -682,7 +363,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="seat">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Have your seat adjusted and placed right</h1>
 							</header>
@@ -699,8 +380,8 @@ article header h1:before {
 							</div>
 						</article>
 					</li>
-					<li id="close" class="page-br">
-						<article>
+					<li id="close">
+						<article class="rule">
 							<header>
 								<h1>Support your hands and arms</h1>
 							</header>
@@ -710,7 +391,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="small-cut">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Use the smallest cutting edge possible on irregular surfaces (even on big pots)</h1>
 							</header>
@@ -719,7 +400,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="centred">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Centre the pot relative to the foot.</h1>
 							</header>
@@ -727,7 +408,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="fast">
-						<article>
+						<article class="rule" class="page-br">
 							<header>
 								<h1>Have the wheel rotating fast</h1>
 							</header>
@@ -735,8 +416,8 @@ article header h1:before {
 								<br /> If your wheel is rotating slowly and the pot's surface is uneven (as is normally the case), you are less able to hold your hands steady to remove the irregularities. </div>
 						</article>
 					</li>
-					<li id="slow" class="page-br">
-						<article>
+					<li id="slow">
+						<article class="rule">
 							<header>
 								<h1>Move the turning tool slowly</h1>
 							</header>
@@ -744,7 +425,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="centre-first" class="hot">
-						<article>
+						<article class="hot">
 							<header>
 								<h1>Start with the centre of the foot</h1>
 							</header>
@@ -759,7 +440,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="outside-inside">
-						<article>
+						<article class="rule">
 							<header>
 								<h1>Make the outside shape match the inside shape</h1>
 							</header>
@@ -771,7 +452,7 @@ article header h1:before {
 						</article>
 					</li>
 					<li id="clean-rim">
-						<article>
+						<article class="rule last">
 							<header>
 								<h1>Clean up the rim when finished</h1>
 							</header>
@@ -781,7 +462,7 @@ article header h1:before {
 					</li>
 	<!--
 					<li id="">
-						<article>
+						<article class="rule">
 							<header>
 								<h1></h1>
 							</header>
