@@ -22,6 +22,11 @@ article {
 			page-break-after: avoid;
 		}
 	}
+	@media screen and (max-width: 37em) {
+		div {
+			margin-left: -6.5em;
+		}
+	}
 }
 
 

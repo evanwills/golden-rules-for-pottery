@@ -2,7 +2,8 @@
 .question {
 	/* border: 0.1em solid #999; */
 	padding: 1em;
-	margin: 2em 5em 1em;
+	margin: 2em auto 1em;
+	max-width: 29em;
 	@include border-radius(0.25em);
 	@include box-shadow( 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6));
 //	border-top: 0.1em solid #999;
