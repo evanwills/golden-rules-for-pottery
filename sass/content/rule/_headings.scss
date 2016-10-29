@@ -8,6 +8,10 @@
 			display: block;
 			margin-left: -5.7em;
 			margin-bottom: -1.15em;
+			@media print {
+				margin-bottom: -1.0em;
+//				margin-left: -1.7em;
+			}
 		}
 	}
 	h2 {
