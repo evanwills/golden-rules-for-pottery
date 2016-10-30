@@ -1,10 +1,11 @@
 .primary {
 	counter-reset: rule;
+	border-top: 0.2em solid #ccc;
 
 	h1 { font-size: 150%; }
-	&:fist-of-type {
-		border-top: 0.2em solid #ccc;
-	}
+}
+
+#throwing {
 }
 .sub {
 	border-top: 0.1em solid #555;
@@ -28,8 +29,8 @@
 @media screen {
 
 	.primary {
-		padding-top: 2em;
-		padding-bottom: 9em;
+		margin-top: 2em;
+//		padding-bottom: 9em;
 	}
 	.sub {
 		padding-top: 3em;
@@ -37,6 +38,14 @@
 		&:first-of-type {
 			padding-top: 1em;
 		}
+	}
+
+	#throwing {
+		margin-top: 4.5em;
+	}
+	#turning {
+		margin-top: 0em;
+		padding-top: 3em;
 	}
 }
 
@@ -46,6 +55,12 @@
 		page-break-before: always;
 		border-top: none;
 		padding-top: 0%;
+	}
+	#throwing {
+		margin-top: 1.5em;
+	}
+	#turning {
+		border-top: none;
 	}
 
 	.sub {

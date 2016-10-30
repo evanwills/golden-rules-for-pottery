@@ -8,20 +8,26 @@ article {
 		margin-left: 1em !important;
 		padding-left: 0.5em !important;
 		margin-bottom: 0.5em;
-		page-break-inside: avoid;
+
+		@media print {
+			page-break-inside: avoid;
+		}
 	}
+
 	&.last {
 		border-bottom: none;
 	}
+
 	@media print {
 		font-size: 14px;
 		padding-top: 0em;
 		padding-bottom: 1em;
-		header {
-			page-break-inside: avoid;
-			page-break-after: avoid;
+		&.last-on-page {
+			border-bottom: none;
+			page-break-after: always;
 		}
 	}
+
 	@media screen and (max-width: 37em) {
 		div {
 			margin-left: -6.5em;

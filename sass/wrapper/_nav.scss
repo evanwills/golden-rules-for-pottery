@@ -11,6 +11,7 @@ nav {
 	position: absolute;
 	top: 1em;
 	left: 1em;
+	background-color: #fff;
 	.newRuleSet {
 		counter-reset: navRule;
 	}
@@ -84,6 +85,9 @@ nav {
 		&:hover {
 			text-decoration: underline;
 		}
+	}
+	&:hover {
+		@include box-shadow( 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6));
 	}
 }
 @media screen and (min-width: 55em) {

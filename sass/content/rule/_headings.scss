@@ -1,5 +1,11 @@
 
 .sub article {
+	@media print {
+		header {
+			page-break-inside: avoid;
+			page-break-after: avoid;
+		}
+	}
 	h1 {
 		font-family: verdana, arial, helvetica, sans-serif;
 		font-size: 115%;
