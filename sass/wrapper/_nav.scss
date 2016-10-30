@@ -11,19 +11,71 @@ nav {
 	position: absolute;
 	top: 1em;
 	left: 1em;
+	.newRuleSet {
+		counter-reset: navRule;
+	}
 	ul {
 		margin: 0%;
 		padding: 0% 0% 0.5em;
 		li {
 			margin: 0%;
-			padding: 0% 0% 0.25em;
+			padding: 0% 0% 0.5em;
 			list-style-type: none;
 			font-weight: bold;
 			font-size: 110%;
+			line-height: 1.1em;
 			li {
-				padding: 0% 0% 0.25% 0.5em;
+				padding: 0% 0% 1.75% 0.5em;
 				font-weight: normal;
 				font-size: 88%;
+			}
+			&:hover > ul.rules {
+					position: static;
+			}
+			a:focus + ul.rules {
+					position: static;
+			}
+		}
+		&.rules {
+//			display: none;
+//			margin-left: 0.5em;
+			padding-left: 1.5em;
+			margin-bottom: 0.3em;
+			position: absolute;
+			left: -200em;
+
+			li {
+				text-indent: -2em;
+				&.hot-tip {
+					list-style-type: none;
+					&:before {
+						content: 'Tip:';
+						font-weight: bold;
+						padding-right: 0.45em;
+					}
+				}
+				&.reminder {
+					list-style-type: none;
+					&:before {
+						content: 'Reminder:';
+						font-weight: bold;
+						padding-right: 0.45em;
+					}
+				}
+				&.rule{
+					counter-increment: navRule;
+					text-indent: 0em;
+					&:before {
+						content: counter(navRule);
+						font-weight: bold;
+						padding-right: 1em;
+						display: block;
+						position: absolute;
+						left: -2.5em;
+						width: 2em;
+						text-align: right;
+					}
+				}
 			}
 		}
 	}
