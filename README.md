@@ -9,58 +9,58 @@ __Original source:__ [golden-rules-for-pottery](https://github.com/evanwills/gol
 
 ## [Throwing](README_throwing.md)
 
-### [General](README_throwing.md#General)
+### [General](README_throwing.md#general)
 
-1. Have your seat adjusted and placed right
-2. Only touch the pot when it's moving
-3. Everything you do needs to be a slow, gentle, fluid movement
-4. Always keep both hands connected
-5. Always clean up the base of your pot
-6. Always keep your hands and the pot slippery
-7. Get each step right before moving on
+1. [Have your seat adjusted and placed right](README_throwing.md#rule-1-have-your-seat-adjusted-and-placed-right)
+2. [Only touch the pot when it's moving](README_throwing.md#rule-2-only-touch-the-pot-when-its-moving)
+3. [Everything you do needs to be a slow, gentle, fluid movement](README_throwing.md#rule-3-everything-you-do-needs-to-be-a-slow-gentle-fluid-movement)
+4. [Always keep both hands connected](README_throwing.md#rule-4-always-keep-both-hands-connected)
+5. [Always clean up the base of your pot](README_throwing.md#rule-5-always-clean-up-the-base-of-your-pot)
+6. [Always keep your hands and the pot slippery](README_throwing.md#rule-6-always-keep-your-hands-and-the-pot-slippery)
+7. [Get each step right before moving on](README_throwing.md#rule-7-get-each-step-right-before-moving-on)
 
-### [Centering](README_throwing.md#Centering)
+### [Centering](README_throwing.md#centering)
 
-8. Apply your main force on the side coming towards you
+8. [Apply your main force on the side coming towards you](README_throwing.md#rule-8-apply-your-main-force-on-the-side-coming-towards-you)
 
-__Hot tip:__ Use your body to give you extra power
+__Hot tip:__ [Use your body to give you extra power](README_throwing.md#hot-tip-use-your-body-to-give-you-extra-power)
 
-### [Pulling Up](README_throwing.md#Pulling_up)
+### [Pulling Up](README_throwing.md#pulling-up)
 
-9. Never let any water sit in the bottom of your pot
-10. Always pull up on the side that's moving away from you
-11. golden-rules-for-potteryAlways move from the very bottom to the very top
+9. [Never let any water sit in the bottom of your pot](README_throwing.md#rule-9-never-let-any-water-sit-in-the-bottom-of-your-pot)
+10. [Always pull up on the side that's moving away from you](README_throwing.md#rule-10-always-pull-up-on-the-side-thats-moving-away-from-you)
+11. [Always move from the very bottom to the very top](README_throwing.md#rule-11-always-move-from-the-very-bottom-to-the-very-top)
 
-### [Before you take the pot off](README_throwing.md#Before_you_take_the_pot_off)
+### [Before you take the pot off](README_throwing.md#before-you-take-the-pot-off)
 
-__Reminder:__ Always clean the base (again)
+__Reminder:__ [Always clean the base (again)](README_throwing.md#reminder-always-clean-the-base-again)
 
-12. Always clean your rim
+12. [Always clean your rim](README_throwing.md#rule-12-always-clean-your-rim)
 
-__Reminder:__ Never leave any water sitting in the bottom of your pot
+__Reminder:__ [Never leave any water sitting in the bottom of your pot](README_throwing.md#reminder-never-leave-any-water-sitting-in-the-bottom-of-your-pot)
 
-__Hot tip:__ Fragile pots need some extra help
+__Hot tip:__ [Fragile pots need some extra help](README_throwing.md#hot-tip-fragile-pots-need-some-extra-help)
 
-### [After you've taken the pot off](README_throwing.md#After_you_take_the_pot_off)
+### [After you've taken the pot off](README_throwing.md#after-you-take-the-pot-off)
 
-13. Always handle your pot with care
-14. Flip your pot over as soon as you can
-15. Wrap your pot if you're not going to work on it for a couple of days
+13. [Always handle your pot with care](README_throwing.md#rule-13-always-handle-your-pot-with-care)
+14. [Flip your pot over as soon as you can](README_throwing.md#rule-14-flip-your-pot-over-as-soon-as-you-can)
+15. [Wrap your pot if you're not going to work on it for a couple of days](README_throwing.md#rule-15-wrap-your-pot-if-youre-not-going-to-work-on-it-for-a-couple-of-days)
 
 ## [Turning](README_turning.md)
 
-### Why do we turn?
+### [Why do we turn?](README_turning.md#why-do-we-turn)
 
-1. The pot should not be too wet
-2. The pot should not be too dry
-3. Have your seat adjusted and placed right
-4. Support your hands and arms
-5. Use the smallest cutting edge possible on irregular surfaces (even on big pots)
-6. Centre the pot relative to the foot.
-7. Have the wheel rotating fast
-8. Move the turning tool slowly
+1. [The pot should not be too wet](README_turning.md#rule-1-the-pot-should-not-be-too-wet)
+2. [The pot should not be too dry](README_turning.md#rule-2-the-pot-should-not-be-too-dry)
+3. [Have your seat adjusted and placed right](README_turning.md#rule-3-have-your-seat-adjusted-and-placed-right)
+4. [Support your hands and arms](README_turning.md#rule-4-Support-your-hands-and-arms)
+5. [Use the smallest cutting edge possible on irregular surfaces (even on big pots)](README_turning.md#rule-5-use-the-smallest-cutting-edge-possible-on-irregular-surfaces-even-on-big-pots)
+6. [Centre the pot relative to the foot](README_turning.md#rule-6-centre-the-pot-relative-to-the-foot)
+7. [Have the wheel rotating fast](README_turning.md#rule-7-have-the-wheel-rotating-fast)
+8. [Move the turning tool slowly](README_turning.md#rule-8-move-the-turning-tool-slowly)
 
-### Hot tip: Start with the centre of the foot
+__Hot tip:__ [Start with the centre of the foot](README_turning.md#hot-tip-start-with-the-centre-of-the-foot)
 
-1. Make the outside shape match the inside shape
-2. Clean up the rim when finished
+9. [Make the outside shape match the inside shape](README_turning.md#rule-9-make-the-outside-shape-match-the-inside-shape)
+10. [Clean up the rim when finished](README_turning.md#rule-10-clean-up-the-rim-when-finished)

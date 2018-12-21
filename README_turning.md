@@ -6,6 +6,26 @@ __Original source:__ [golden-rules-for-pottery](https://github.com/evanwills/gol
 
 -----
 
+[< Index](README.md) | [Throwing >](README_throwing.md)
+
+-----
+
+1. [The pot should not be too wet](#rule-1-the-pot-should-not-be-too-wet)
+2. [The pot should not be too dry](#rule-2-the-pot-should-not-be-too-dry)
+3. [Have your seat adjusted and placed right](#rule-3-have-your-seat-adjusted-and-placed-right)
+4. [Support your hands and arms](#rule-4-Support-your-hands-and-arms)
+5. [Use the smallest cutting edge possible on irregular surfaces (even on big pots)](#rule-5-use-the-smallest-cutting-edge-possible-on-irregular-surfaces-even-on-big-pots)
+6. [Centre the pot relative to the foot](#rule-6-centre-the-pot-relative-to-the-foot)
+7. [Have the wheel rotating fast](#rule-7-have-the-wheel-rotating-fast)
+8. [Move the turning tool slowly](#rule-8-move-the-turning-tool-slowly)
+
+__Hot tip:__ [Start with the centre of the foot](#hot-tip-start-with-the-centre-of-the-foot)
+
+9. [Make the outside shape match the inside shape](#rule-9-make-the-outside-shape-match-the-inside-shape)
+10. [Clean up the rim when finished](#rule-10-clean-up-the-rim-when-finished)
+
+-----
+
 ## Why do we turn?
 
 There are three main reasons why we turn our pots:
@@ -166,3 +186,10 @@ Because the rim is in contact with the wheel head during turning it can get slig
 ### How?
 
 Using a moderately wet sponge wipe around the rim in a rolling, spiral motion, moving from inside to outside as you go around.
+
+
+-----
+
+[< Index](README.md) | [Throwing >](README_throwing.md)
+
+-----

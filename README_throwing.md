@@ -7,6 +7,51 @@ __Original source:__ [golden-rules-for-pottery](https://github.com/evanwills/gol
 
 -----
 
+[< Index](README.md) | [Turning >](README_turning.md)
+
+-----
+
+
+### [General](#general)
+
+1. [Have your seat adjusted and placed right](#rule-1-have-your-seat-adjusted-and-placed-right)
+2. [Only touch the pot when it's moving](#rule-2-only-touch-the-pot-when-its-moving)
+3. [Everything you do needs to be a slow, gentle, fluid movement](#rule-3-everything-you-do-needs-to-be-a-slow-gentle-fluid-movement)
+4. [Always keep both hands connected](#rule-4-always-keep-both-hands-connected)
+5. [Always clean up the base of your pot](#rule-5-always-clean-up-the-base-of-your-pot)
+6. [Always keep your hands and the pot slippery](#rule-6-always-keep-your-hands-and-the-pot-slippery)
+7. [Get each step right before moving on](#rule-7-get-each-step-right-before-moving-on)
+
+### [Centering](#centering)
+
+8. [Apply your main force on the side coming towards you](#rule-8-apply-your-main-force-on-the-side-coming-towards-you)
+
+__Hot tip:__ [Use your body to give you extra power](#hot-tip-use-your-body-to-give-you-extra-power)
+
+### [Pulling Up](#pulling-up)
+
+9. [Never let any water sit in the bottom of your pot](#rule-9-never-let-any-water-sit-in-the-bottom-of-your-pot)
+10. [Always pull up on the side that's moving away from you](#rule-10-always-pull-up-on-the-side-thats-moving-away-from-you)
+11. [Always move from the very bottom to the very top](#rule-11-always-move-from-the-very-bottom-to-the-very-top)
+
+### [Before you take the pot off](#before-you-take-the-pot-off)
+
+__Reminder:__ [Always clean the base (again)](#reminder-always-clean-the-base-again)
+
+12. [Always clean your rim](#rule-12-always-clean-your-rim)
+
+__Reminder:__ [Never leave any water sitting in the bottom of your pot](#reminder-never-leave-any-water-sitting-in-the-bottom-of-your-pot)
+
+__Hot tip:__ [Fragile pots need some extra help](#hot-tip-fragile-pots-need-some-extra-help)
+
+### [After you've taken the pot off](#after-you-take-the-pot-off)
+
+13. [Always handle your pot with care](#rule-13-always-handle-your-pot-with-care)
+14. [Flip your pot over as soon as you can](#rule-14-flip-your-pot-over-as-soon-as-you-can)
+15. [Wrap your pot if you're not going to work on it for a couple of days](#rule-15-wrap-your-pot-if-youre-not-going-to-work-on-it-for-a-couple-of-days)
+
+-----
+
 ## General
 
 ### __Rule 1:__ Have your seat adjusted and placed right
@@ -245,3 +290,9 @@ If it's a larger pot:
 
 When you are ready to turn your pot, it needs to be leather hard (or a little harder), not bone dry. If it's bone dry when you go to turn it, it will create very fine dust which is a major health hazard to you (and those around you). It also makes the tools get very blunt very quickly. Thus greatly reducing the tool's immediate function and overall life span.
 
+
+-----
+
+[< Index](README.md) | [Turning >](README_turning.md)
+
+-----
