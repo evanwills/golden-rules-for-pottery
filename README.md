@@ -1,5 +1,5 @@
 
-## Golden rules for Throwing and Turning
+# Golden rules for Throwing and Turning
 
 __Written by:__ Evan Wills
 
