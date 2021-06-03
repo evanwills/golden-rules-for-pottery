@@ -1,0 +1,35 @@
+{
+  "name": "golden-rules-for-pottery",
+  "version": "0.0.1",
+  "description": "Useful tips for potters learning how to throw.",
+  "main": "index.html",
+  "author": "Evan Wills",
+  "license": "GPL 3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evanwills/golden-rules-for-pottery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evanwills/golden-rules-for-pottery/issues"
+  },
+  "homepage": "https://github.com/evanwills/golden-rules-for-pottery#readme",
+  "keywords": [
+    "ceramics",
+    "pottery",
+    "throwing",
+    "javascript",
+    "lit-html"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-order": "^4.1.0",
+    "vite": "^2.1.0"
+  }
+}
