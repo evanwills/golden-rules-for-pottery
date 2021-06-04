@@ -1,0 +1,66 @@
+
+article {
+	padding-left: 6.5em;
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+	border-bottom: 0.1em dashed #ccc;
+}
+article ol li {
+  margin-left: 1em !important;
+  padding-left: 0.5em !important;
+  margin-bottom: 0.5em;
+}
+@media print {
+}
+
+article .last {
+  border-bottom: none;
+}
+
+@media print {
+  article {
+		font-size: 14px;
+		padding-top: 0em;
+		padding-bottom: 1em;
+  }
+  article ol li {
+    page-break-inside: avoid;
+  }
+	article .last-on-page {
+			border-bottom: none;
+			page-break-after: always;
+  }
+}
+
+@media screen and (max-width: 37em) {
+  div {
+    margin-left: -6.5em;
+  }
+}
+
+.details,
+.how,
+.note,
+.why {
+	position: relative;
+	padding-left: 4em;
+	margin-top: 0.5em;
+	font-weight: normal;
+}
+.details:before,
+.how:before,
+.note:before,
+.why:before {
+  font-weight: bold;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.details:before { content: 'Details:'; }
+
+.how:before { content: 'How?'; }
+
+.why:before { content: 'Why?'; }
+
+.note:before { content: 'Note:'; }

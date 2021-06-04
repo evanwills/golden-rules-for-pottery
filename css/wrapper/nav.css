@@ -1,0 +1,97 @@
+@media print {
+	nav {
+		display: none;
+	}
+}
+
+nav {
+	width: 13em;
+	padding: 0.5em;
+	border: 0.1em solid #eee;
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	background-color: #fff;
+}
+nav .newRuleSet {
+  counter-reset: navRule;
+}
+nav ul {
+  margin: 0%;
+  padding: 0% 0% 0.5em;
+}
+nav ul li {
+  margin: 0%;
+  padding: 0% 0% 0.5em;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 110%;
+  line-height: 1.1em;
+}
+nav ul li li {
+  padding: 0% 0% 1.75% 0.5em;
+  font-weight: normal;
+  font-size: 88%;
+}
+nav ul li li:hover > ul.rules {
+  position: static;
+}
+nav ul li li a:focus + ul.rules {
+  position: static;
+}
+nav ul .rules {
+	/* display: none; */
+  /* margin-left: 0.5em; */
+  padding-left: 1.5em;
+  margin-bottom: 0.3em;
+  position: absolute;
+  left: -200em;
+}
+
+nav ul .rules li {
+  text-indent: -2em;
+}
+nav ul .rules li.hot-tip {
+  list-style-type: none;
+}
+nav ul .rules li.hot-tip:before {
+  content: 'Tip:';
+  font-weight: bold;
+  padding-right: 0.45em;
+}
+nav ul .rules li.reminder {
+  list-style-type: none;
+}
+nav ul .rules li.reminder:before {
+  content: 'Reminder:';
+  font-weight: bold;
+  padding-right: 0.45em;
+}
+nav ul .rules li.rule {
+  counter-increment: navRule;
+  text-indent: 0em;
+}
+nav ul .rules li.rule:before {
+  content: counter(navRule);
+  font-weight: bold;
+  padding-right: 1em;
+  display: block;
+  position: absolute;
+  left: -2.5em;
+  width: 2em;
+  text-align: right;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a:hover {
+  box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
+}
+@media screen and (min-width: 55em) {
+  nav {
+    position: fixed;
+  }
+}
