@@ -1,49 +1,49 @@
 body {
 	font-family: arial, helvetica, sans-serif;
-	line-height: 1.25em;
+	line-height: 1.25rem;
 }
 
 
-@media screen and (min-width: 70em) {
+@media screen and (min-width: 70rem) {
 	body {
-		margin: 1em auto;
-			max-width: 40em;
+		margin: 1rem auto;
+			max-width: 40rem;
 	}
 }
 
-@media screen and (min-width: 55em) and (max-width: 69.9999em) {
+@media screen and (min-width: 55rem) and (max-width: 69.9999rem) {
 	body {
-		max-width: 40em;
-		padding-left: 17em;
+		max-width: 40rem;
+		padding-left: 17rem;
 	}
 }
 
-@media screen and (max-width: 54.999em) {
+@media screen and (max-width: 54.999rem) {
 
 	body {
-		padding-top: 9em;
+		padding-top: 9rem;
 	}
 	body > header {
 		position: absolute;
 		top: 0%;
-		left: 17em;
+		left: 17rem;
 	}
 }
 
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 40rem) {
 	body {
-		padding: 10em 1em 1em 1em;
+		padding: 10rem 1rem 1rem 1rem;
 	}
 }
 
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 40rem) {
 	body {
-		padding: 10em 1em 1em 1em;
+		padding: 10rem 1rem 1rem 1rem;
 	}
 	body > header {
 		position: static;
-		padding-top: 2em;
+		padding-top: 2rem;
 	}
 }

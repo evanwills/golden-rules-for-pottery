@@ -1,6 +1,6 @@
 .primary {
 	counter-reset: rule;
-	border-top: 0.2em solid #ccc;
+	border-top: 0.2rem solid #ccc;
 }
 
 .primary h1 { font-size: 150%; }
@@ -8,11 +8,23 @@
 /* #throwing {
 } */
 
+.rule > h3, .rule > h4, .rule > h5, .rule > p, .rule > ol, .rule > div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+.rule > h3::before, .rule > h4::before, .rule > h5::before, .rule > p::before, .rule > ol::before, .rule > div::before, .rule .pre {
+  display: block;
+  font-weight: bold;
+  text-align: right;
+  width: 10rem !important;
+}
+
 .sub {
-	border-top: 0.1em solid #555;
-	border-bottom: 0.1em solid #555;
-	margin-bottom: 0.2em;
-	padding-top: 1em;
+	border-top: 0.1rem solid #555;
+	border-bottom: 0.1rem solid #555;
+	margin-bottom: 0.2rem;
+	padding-top: 1rem;
 }
 .sub > header > h1 { font-size: 130%; }
 .sub ol {
@@ -29,23 +41,23 @@
 
 @media screen {
 	.primary {
-		margin-top: 2em;
-		/* padding-bottom: 9em; */
+		margin-top: 2rem;
+		/* padding-bottom: 9rem; */
 	}
 	.sub {
-		padding-top: 3em;
-		padding-bottom: 3em;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
   }
   .sub:first-of-type {
-    padding-top: 1em;
+    padding-top: 1rem;
   }
 
 	#throwing {
-		margin-top: 4.5em;
+		margin-top: 4.5rem;
 	}
 	#turning {
-		margin-top: 0em;
-		padding-top: 3em;
+		margin-top: 0rem;
+		padding-top: 3rem;
 	}
 }
 
@@ -56,14 +68,14 @@
 		padding-top: 0%;
 	}
 	#throwing {
-		margin-top: 1.5em;
+		margin-top: 1.5rem;
 	}
 	#turning {
 		border-top: none;
 	}
 
 	.sub {
-		padding-top: 1em;
-		padding-bottom: 2em;
+		padding-top: 1rem;
+		padding-bottom: 2rem;
 	}
 }

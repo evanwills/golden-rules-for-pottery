@@ -1,14 +1,17 @@
 
 article {
-	padding-left: 6.5em;
-	padding-top: 0.5em;
-	padding-bottom: 2em;
-	border-bottom: 0.1em dashed #ccc;
+	padding-top: 0.5rem;
+	padding-bottom: 2rem;
+	border-bottom: 0.1rem dashed #ccc;
+}
+li:last-child > article {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 article ol li {
-  margin-left: 1em !important;
-  padding-left: 0.5em !important;
-  margin-bottom: 0.5em;
+  margin-left: 1rem !important;
+  padding-left: 0.5rem !important;
+  margin-bottom: 0.5rem;
 }
 @media print {
 }
@@ -20,8 +23,8 @@ article .last {
 @media print {
   article {
 		font-size: 14px;
-		padding-top: 0em;
-		padding-bottom: 1em;
+		padding-top: 0rem;
+		padding-bottom: 1rem;
   }
   article ol li {
     page-break-inside: avoid;
@@ -32,9 +35,9 @@ article .last {
   }
 }
 
-@media screen and (max-width: 37em) {
+@media screen and (max-width: 37rem) {
   div {
-    margin-left: -6.5em;
+    margin-left: -6.5rem;
   }
 }
 
@@ -43,8 +46,7 @@ article .last {
 .note,
 .why {
 	position: relative;
-	padding-left: 4em;
-	margin-top: 0.5em;
+	margin-top: 0.5rem;
 	font-weight: normal;
 }
 .details:before,
@@ -52,9 +54,6 @@ article .last {
 .note:before,
 .why:before {
   font-weight: bold;
-  position: absolute;
-  top: 0%;
-  left: 0%;
 }
 
 .details:before { content: 'Details:'; }

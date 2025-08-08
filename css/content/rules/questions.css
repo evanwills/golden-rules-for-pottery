@@ -1,33 +1,33 @@
 
 .question {
-	/* border: 0.1em solid #999; */
-	padding: 1em;
-	margin: 2em auto 1em;
-	max-width: 29em;
-	border-radius: 0.25em;
-	box-shadow: 0.3em 0.3em 0.5em rgba( 0, 0, 0, 0.6);
-	/* border-top: 0.1em solid #999; */
-	/* border-left: 0.1em solid #999; */
+	/* border: 0.1rem solid #999; */
+	padding: 1rem;
+	margin: 2rem auto 1rem;
+	max-width: 29rem;
+	border-radius: 0.25rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem rgba( 0, 0, 0, 0.6);
+	/* border-top: 0.1rem solid #999; */
+	/* border-left: 0.1rem solid #999; */
 }
 .question p {
-  margin: 0.5em 0%;
+  margin: 0.5rem 0%;
 }
 .question ol li {
   list-style-type: decimal;
-  margin: 0% 0% 0.5em 1.5em;
-  padding: 0% 0% 0% 0.5em;
+  margin: 0% 0% 0.5rem 1.5rem;
+  padding: 0% 0% 0% 0.5rem;
 }
 
 @media print {
   .question {
-		border-width: 0.1em;
+		border-width: 0.1rem;
 		border-style: solid;
 		border-top-color: #ccc;
 		border-right-color: #999;
 		border-bottom-color: #999;
 		border-left-color: #ccc;
 		box-shadow: none;
-		margin: 1.5em 5em 0em;
-		padding: 0% 1em;
+		margin: 1.5rem 5rem 1.5rem;
+		padding: 0% 1rem;
 	}
 }
