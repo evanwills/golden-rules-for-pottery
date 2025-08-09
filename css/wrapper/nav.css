@@ -33,19 +33,25 @@ nav ul li li {
   font-weight: normal;
   font-size: 88%;
 }
-nav ul li li:hover > ul.rules {
-  position: static;
+nav .hover > ul {
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+  background: #fff;
+  z-index: 10;
 }
-nav ul li li a:focus + ul.rules {
-  position: static;
+nav .hover:hover > ul,
+nav .hover:focus > ul,
+nav .hover:focus-within > ul {
+  transform: scaleY(1);
 }
+
 nav ul .rules {
 	/* display: none; */
   /* margin-left: 0.5rem; */
   padding-left: 1.5rem;
   margin-bottom: 0.3rem;
-  position: absolute;
-  left: -200rem;
 }
 
 nav ul .rules li {

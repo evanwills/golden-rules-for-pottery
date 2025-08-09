@@ -364,7 +364,7 @@ nav ul.rules li {
 nav ul.rules li.hot-tip {
   list-style-type: none;
 }
-nav ul.rules li.hot-tip:before {
+nav ul.rules li.hot-tip::before {
   content: "Tip:";
   font-weight: bold;
   padding-right: 0.45rem;
@@ -372,7 +372,7 @@ nav ul.rules li.hot-tip:before {
 nav ul.rules li.reminder {
   list-style-type: none;
 }
-nav ul.rules li.reminder:before {
+nav ul.rules li.reminder::before {
   content: "Reminder:";
   font-weight: bold;
   padding-right: 0.45rem;
@@ -381,7 +381,7 @@ nav ul.rules li.rule {
   counter-increment: navRule;
   text-indent: 0rem;
 }
-nav ul.rules li.rule:before {
+nav ul.rules li.rule::before {
   content: counter(navRule);
   font-weight: bold;
   padding-right: 1rem;

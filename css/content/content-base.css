@@ -1,6 +1,10 @@
+:root {
+  --max-base-width: 40rem;
+  --pre-width: 5.5rem;
+  --post-width: calc(100% - var(--pre-width) - 1rem);
+}
 
-
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
 	font-family: verdana, arial, helvetica, sans-serif;
 	font-weight: bold;
 	line-height: 1.15em;
@@ -42,6 +46,23 @@ ul li {
 	position: relative;
 }
 
+#copyright {
+  display: block;
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  scroll-margin-top: 2rem;
+}
+#copyright .cc-link {
+  float: right;
+  padding: 0 0 1rem 1rem;
+}
+#copyright img {
+  width: 10rem;
+  height: auto;
+}
+@media print { #copyright img { width: 6rem; } }
+
+main { clear: both;}
 
 @media print {
 	.screen-only {
@@ -51,11 +72,12 @@ ul li {
 		text-decoration: none;
 		color: #000;
   }
-  a:after {
+  a::after {
     font-style: italic;
     color: #ccc;
-    content: " [" attr(title) "]";
+    content: " [" attr(href) "]";
   }
+
 	a.no-helper:after {
 			display: none;
 	}

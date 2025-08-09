@@ -10,14 +10,14 @@
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 115%;
 }
-sub article h3:before {
+sub article h3::before {
   font-weight: normal;
   display: block;
   margin-left: -5.7rem;
   margin-bottom: -1.15rem;
 }
 @media print {
-  sub article h1:before {
+  sub article h1::before {
     /* padding-left: 5.5rem; */
     margin-bottom: -1.0rem;
     /* text-indent: -5.5rem; */
@@ -28,24 +28,24 @@ sub article h3:before {
   font-size: 105%;
 }
 
-.rule h3:before, .rule h4:before, .rule h5:before {
+.rule .before::before {
   content: 'Rule ' counter(rule);
   counter-increment: rule;
 }
 @media print {
-  .rule h1:before {
+  .rule h1::before {
     /* top: 0.15rem; */
   }
 }
 
-.reminder h1:before {
+.reminder .before::before  {
   content: 'Reminder ';
 }
 
-.hot h1:before {
+.hot .before::before {
   content: 'Hot tip: ';
 }
 
-.note h1:before {
+.note .before::before {
   content: 'Note: ';
 }

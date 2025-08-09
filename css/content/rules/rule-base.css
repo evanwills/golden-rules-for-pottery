@@ -27,7 +27,7 @@ article .last {
 		padding-bottom: 1rem;
   }
   article ol li {
-    page-break-inside: avoid;
+    /* page-break-inside: avoid; */
   }
 	article .last-on-page {
 			border-bottom: none;

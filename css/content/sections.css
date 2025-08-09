@@ -8,17 +8,40 @@
 /* #throwing {
 } */
 
-.rule > h3, .rule > h4, .rule > h5, .rule > p, .rule > ol, .rule > div {
+.rule > *, .hot > *, .reminder > * {
   display: flex;
   flex-direction: row;
   column-gap: 1rem;
 }
-.rule > h3::before, .rule > h4::before, .rule > h5::before, .rule > p::before, .rule > ol::before, .rule > div::before, .rule .pre {
+.rule .pre, .rule ::before,
+.hot .pre, .hot ::before,
+.reminder .pre, .reminder ::before {
   display: block;
   font-weight: bold;
   text-align: right;
-  width: 10rem !important;
+  width: var(--pre-width);
 }
+
+.rule .pre + *, .rule .post,
+.hot .pre + *, .hot .post,
+.reminder .pre + *, .reminder .post {
+  max-width: var(--post-width);
+}
+
+.rule > *:nth-child(n+2),
+.hot > *:nth-child(n+2),
+.reminder > *:nth-child(n+2) {
+  margin-top: 1rem;
+}
+
+.post > h4, .post > h5, .post > h6 {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 1rem !important;
+  line-height: 1.4rem !important;
+}
+
+.post :first-child { margin-top: 0; }
+.post :last-child { margin-bottom: 0; }
 
 .sub {
 	border-top: 0.1rem solid #555;
@@ -26,6 +49,10 @@
 	margin-bottom: 0.2rem;
 	padding-top: 1rem;
 }
+main > section > .sub:last-child {
+  border-bottom: none;
+}
+
 .sub > header > h1 { font-size: 130%; }
 .sub ol {
   margin-left: 0%;
@@ -62,6 +89,15 @@
 }
 
 @media print {
+  .rule > *:first-child {
+    page-break-after: avoid;
+  }
+
+  .post, .post p, .post li {
+    orphans: 2;
+    widows: 2;
+  }
+
 	.page-br {
 		page-break-before: always;
 		border-top: none;
